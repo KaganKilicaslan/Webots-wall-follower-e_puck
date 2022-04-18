@@ -1,0 +1,23 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.2614709669315267 0.8749366533356925 0.40757672419022006 1.265368072172079
+  position -0.5046522241464341 -0.36797629019783207 1.451449271766903
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+Wall {
+  translation 0.27 0 0
+  rotation 1 0 0 4.692820414042842e-06
+  size 0.05 0.8 0.2
+}
+E-puck {
+  translation 0.15 0 0
+  controller "duvar_takip_p_regulator_kodu"
+}
